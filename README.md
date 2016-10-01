@@ -1,4 +1,4 @@
-# cssextractor
+# CSS extractor
 extract css code with specific property
 
 READ THIS BEFORE STARTING
@@ -11,11 +11,13 @@ JUST FORMAT YOUR CODE ON http://www.codebeautifier.com/ and than paste result co
 
 in future i may add more css selector choice but if you need it currently than just edit it.php file of this project and from line #63-67 you should see :
 
+<code>
 if (0 === strpos($key, 'back')) {
 $tempstring.= $key.';';
 }
 if (0 === strpos($key, 'colo')) {
 $tempstring.= $key.';';
 }
+</code>
 
 as you see , i have checked for background and color property but you may copy this condition and add your own selector choice :)
